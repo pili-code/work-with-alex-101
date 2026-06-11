@@ -1,69 +1,66 @@
 ---
 name: work-with-alex
-description: Prep for and run GTM Syncs (or any update) with Alex (Alessandro Alter), TDP cofounder. Use when building a GTM Sync agenda, prepping for a meeting/update with Alex, deciding how to present numbers/pipeline to Alex, or whenever the user asks "how do I present this to Alex" / "make this Alex-ready". Alex is business- and numbers-oriented, wants the conclusion first and a decision to make.
+description: A team-wide guide for working with Alex (Alessandro Alter), TDP cofounder. Use whenever anyone is prepping an update, report, review, agenda, or ask for Alex, deciding how to present numbers or a recommendation to Alex, or asking "how do I present this to Alex" / "make this Alex-ready" — in any function (design, engineering, ops, sales/GTM). Alex is business- and numbers-oriented: he wants the conclusion first, a verified number behind every claim, and a decision to make.
 ---
 
 # Work with Alex 101
 
-Alex (Alessandro Alter) is a TDP cofounder. He is business- and numbers-oriented. Based on a study
-of 10 GTM Sync transcripts (Jan–Jun 2026), he consistently demands the conclusion up front, attaches
-a conversion rate to every claim, asks where every lead came from, refuses to trust a metric unless
-it's verifiably tested, thinks in unit economics (CAC, break-even, margin), and pushes every finding
-toward a concrete action.
+A guide for the whole team on working with Alex (Alessandro Alter), TDP cofounder. Not function-specific
+— the way he thinks, communicates, and decides is consistent across design, engineering, ops, and GTM.
+Grounded in a study of 10 real meeting transcripts (see `analysis/gtm-sync-analysis.md`), but the
+principles apply to every interaction.
 
-Pili is impatient and dislikes long stories — match that. Output bullets, not narrative.
+**Who Alex is, in one line:** business- and numbers-oriented, fast, hands-on, allergic to fluff. He
+wants the conclusion first, a verified number behind every claim, and a decision to make.
 
-## The rule that overrides everything
+**When helping anyone prep for Alex, enforce the checklist at the bottom of this file.**
 
-**Lead with the conclusion. Never narrate the process.** Alex's exact words in a sync:
-> "All the process to get to the conclusion is not particularly relevant. Just give us the conclusion
-> so we can streamline the conversation and talk about what matters."
+## 1. Communication
+- **Lead with the conclusion. Never narrate the process.** "Just give us the conclusion so we can talk about what matters." Backstory goes in an appendix only if asked.
+- **Concise and structured** — bullets over paragraphs. "Be more structured and concise; focus on key business results."
+- **Small, specific asks get fast answers.** For feedback, send a pointed question on Signal, not a wall of text: "What do you think about the first paragraph?" beats "please review this doc."
+- **Right channel:** Signal for quick/urgent feedback, the team channel for routine. Don't book a call for what a message can resolve.
 
-If he wants the backstory, he'll ask. He won't. Put any "how we got here" detail in a collapsed appendix.
+## 2. Reporting numbers (where trust is won or lost)
+- **Every claim gets a number** (conversion rate, $, count). No number = he stops trusting it.
+- **Every number gets a verifiable source.** "Estimated" ≠ "tracked," and he catches the difference.
+- **Show trends (▲/▼), not vanity totals.** He wants the delta vs last period.
+- **Never say "tested" unless you can show it worked.** The rule above all others:
+  > "Don't tell me it's tested and then it's not. Because next time you tell me something, I need to ask you seven questions to trust the answer." (May 14)
+  One verified number beats five estimated ones. Reliability is the currency.
+- **Unit economics** where relevant: CAC, break-even, margin, revenue quality.
 
-## What Alex asks (pre-empt these — ranked by how often they recur)
+## 3. Getting a decision
+- **Bring a recommendation, not an open question.** "Here's the situation, here's what I'd do, agree?"
+- **Frame experiments test-and-kill** — he's biased to action. Give a confidence level and a kill criterion. "Why decide up front it'll fail? Test it, we can always kill it."
+- **Separate must-have from nice-to-have** — he protects focus hard.
 
-1. **Attribution: "Where did it come from?"** (nearly every call) — every lead/signup needs a verifiable source: YouTube / LinkedIn / job board / referral. "Are we able to do that? That's the goal."
-2. **Conversion rate + funnel math** (every call) — visits → clicks → signups → customers, each with a %. "Where's the bottleneck? Where's the leverage?"
-3. **"Did you TEST it? Is it tracked?"** — he won't trust a metric whose tracking isn't verified. State "tracking confirmed: Y/N + how I tested." His words: *"Don't tell me it's tested and then it's not, because next time I need to ask you seven questions to trust the answer."*
-4. **"Send me numbers" — trends, up or down** — reply rate, open rate, calls scheduled, each with ▲/▼ vs last week. He wants deltas, not vanity absolutes.
-5. **Conclusion first / "what matters"** — "Just give us the conclusion." Nice-to-have vs must-have.
-6. **Unit economics** — CAC, break-even conversion rate, gross margin, revenue quality. "What CR makes us break even?"
-7. **Data → action** — "Why aren't they converting? What do we DO about it?" Bring the next action, not just the number.
-8. **Strategic zoom-out** — occasionally: "What are we trying to achieve? Where is TDP going?"
-9. **Customers vs. subscribers** — never present a blended list; separate paying customers.
-10. **Bias to action** — "Why decide up front it'll fail? Test it, we can always kill it." Bring a recommendation.
+## 4. What frustrates him (steer clear)
+- Long narratives that bury the point.
+- Claiming something is tracked/tested/done when it isn't verified.
+- Vanity metrics with no source, no trend, no action.
+- Surfacing a problem with no proposed next step.
 
-## How to build an Alex-ready agenda / update
+## 5. What Alex most often asks for (pre-empt these)
+Ranked by how often they recur across meetings:
+1. **Attribution** — "Where did it come from?" Every lead/result needs a verifiable source.
+2. **Conversion rate + funnel math** — each step as a %. "Where's the bottleneck? Where's the leverage?"
+3. **"Did you TEST it? Is it tracked?"** — verified, not estimated. State "tracking confirmed: Y/N + how."
+4. **Trends** — "Send me numbers" with up/down vs last period.
+5. **Conclusion first / what matters** — must-have vs nice-to-have.
+6. **Unit economics** — "What conversion rate makes us break even?"
+7. **Data → action** — "Why aren't they converting? What do we DO about it?"
+8. **Strategic zoom-out** (occasionally) — "What are we trying to achieve? Where is TDP going?"
 
-1. **Bottom Line box at the very top (max 3 bullets):**
-   - What changed this week
-   - The one number that matters
-   - The one decision I need from you
-2. **Number on every line item.** `visits → conversions → CR%`, and `$` where relevant.
-3. **Pipeline as a table:** `Name | Status | Why | Next action | Owner` — one row per deal.
-4. **Tag every item: `Decision` / `FYI` / `Blocked`.** Meeting time goes to Decision + Blocked only.
-5. **"Tracking confirmed? Y/N"** next to any new channel or page.
-6. **Close with "What I need from you"** — a short ask list, nothing else.
+## Pre-send checklist (enforce before anything reaches Alex)
+- [ ] Conclusion at the top
+- [ ] Every number has a verified source (not estimated-as-tracked)
+- [ ] Every metric has a trend (▲/▼ vs last period)
+- [ ] Every finding has a proposed action
+- [ ] Decisions flagged with a recommendation
+- [ ] It's short
 
-## Cheat sheet to hand Pili before the meeting
-
-- Open with: "Decision needed: X. My rec: Y."
-- Every claim → a number. No number = he stops trusting it.
-- Customers separated from everyone else before you present any list.
-- Each deal: name → status → why → next action → owner. One line each.
-- Flag Decision / FYI / Blocked. Skip the FYIs out loud.
-- End with "what I need from you."
-
-## The one rule above all others
-
-> "Don't tell me it's tested and then it's not. Because next time you tell me something, I need to
-> ask you seven questions to trust the answer." — Alex, May 14
-
-The reliability of your reporting is the currency. One verified number beats five estimated ones.
-
-## Source
-
-See `analysis/gtm-sync-analysis.md` for the 10-call transcript evidence. To refresh: run the
-`/fireflies` keyword search `GTM Sync` (retry on 408 timeout) to get the transcript IDs, then fetch
-each by ID (direct ID fetch bypasses the API's ~2-week list window) and re-extract Alex's lines.
+## Source & refresh
+Evidence: `analysis/gtm-sync-analysis.md` (10-call study). To refresh, run the `/fireflies` keyword
+search `GTM Sync` (retry on 408 timeout) to get transcript IDs, then fetch each by ID — direct ID
+fetch bypasses the API's ~2-week list window — and re-extract Alex's lines.
